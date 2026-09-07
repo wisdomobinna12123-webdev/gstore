@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gstore - Premium Men's Boutique</title>
+    <meta name="description" content="Gstore - Premium men's boutique offering curated bags, shoes, trousers, shirts, caps, and watches for the modern gentleman.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="gstore.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="logo">G<span>store</span></a>
+            
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#shirts" class="nav-link">Shirts</a></li>
+                <li><a href="#trousers" class="nav-link">Trousers</a></li>
+                <li><a href="#shoes" class="nav-link">Shoes</a></li>
+                <li><a href="#bags" class="nav-link">Bags</a></li>
+                <li><a href="#watches" class="nav-link">Watches</a></li>
+                <li><a href="#caps" class="nav-link">Caps</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                
+                <button class="cart-btn" id="cartBtn" aria-label="Open cart">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-glow"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="hero-badge">✨ Premium Collection 2026</span>
+                <h1 class="hero-title">Elevate Your <span>Style</span> Game</h1>
+                <p class="hero-subtitle">Discover curated pieces for the modern gentleman. From luxury watches to statement caps, we've got your complete style covered.</p>
+                <div class="hero-cta">
+                    <a href="#shirts" class="btn btn-primary">Shop Collection</a>
+                    <a href="#watches" class="btn btn-outline">View Lookbook</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">54+</span>
+                        <span class="stat-label">Premium Products</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">5k+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4.9★</span>
+                        <span class="stat-label">Customer Rating</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="hero.png" alt="Premium Men's Fashion Collection" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Main -->
+    <main class="products-main">
+        <!-- Shirts Section -->
+        <section class="product-section container" id="shirts">
+            <div class="section-header">
+                <h2 class="section-title">Premium <span>Shirts</span></h2>
+                <p class="section-subtitle">Sophisticated tops for every occasion</p>
+            </div>
+            <div class="product-grid">
+                <article class="product-card" data-id="shirt1" data-name="White Oxford Shirt" data-price="28000" data-category="Shirts">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Oxford+Shirt" alt="White Oxford Shirt" loading="lazy">
+                        <span class="product-tag">Bestseller</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">White Oxford Shirt</h3>
+                        <p class="product-price">₦28,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('White Oxford Shirt', 28000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('White Oxford Shirt', 28000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="shirt2" data-name="Black Cuban Collar" data-price="25000" data-category="Shirts">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Cuban+Collar" alt="Black Cuban Collar Shirt" loading="lazy">
+                        <span class="product-tag">Trending</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Black Cuban Collar</h3>
+                        <p class="product-price">₦25,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Black Cuban Collar', 25000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Black Cuban Collar', 25000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="shirt3" data-name="Navy Linen Shirt" data-price="32000" data-category="Shirts">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Navy+Linen" alt="Navy Linen Shirt" loading="lazy">
+                        <span class="product-tag">Summer</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Navy Linen Shirt</h3>
+                        <p class="product-price">₦32,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Navy Linen Shirt', 32000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Navy Linen Shirt', 32000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="shirt4" data-name="Grey Flannel Shirt" data-price="30000" data-category="Shirts">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Grey+Flannel" alt="Grey Flannel Shirt" loading="lazy">
+                        <span class="product-tag">Classic</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Grey Flannel Shirt</h3>
+                        <p class="product-price">₦30,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Grey Flannel Shirt', 30000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Grey Flannel Shirt', 30000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="shirt5" data-name="Olive Utility Shirt" data-price="27000" data-category="Shirts">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Olive+Utility" alt="Olive Utility Shirt" loading="lazy">
+                        <span class="product-tag">Street</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Olive Utility Shirt</h3>
+                        <p class="product-price">₦27,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Olive Utility Shirt', 27000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Olive Utility Shirt', 27000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="shirt6" data-name="White Dress Shirt" data-price="35000" data-category="Shirts">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Dress+Shirt" alt="White Dress Shirt" loading="lazy">
+                        <span class="product-tag">Formal</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">White Dress Shirt</h3>
+                        <p class="product-price">₦35,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('White Dress Shirt', 35000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('White Dress Shirt', 35000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="shirt7" data-name="Denim Western Shirt" data-price="33000" data-category="Shirts">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Denim+Shirt" alt="Denim Western Shirt" loading="lazy">
+                        <span class="product-tag">Vintage</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Denim Western Shirt</h3>
+                        <p class="product-price">₦33,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Denim Western Shirt', 33000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Denim Western Shirt', 33000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="shirt8" data-name="Striped Polo Shirt" data-price="22000" data-category="Shirts">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Striped+Polo" alt="Striped Polo Shirt" loading="lazy">
+                        <span class="product-tag">Casual</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Striped Polo Shirt</h3>
+                        <p class="product-price">₦22,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Striped Polo Shirt', 22000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Striped Polo Shirt', 22000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="shirt9" data-name="Black Silk Shirt" data-price="45000" data-category="Shirts">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Silk+Shirt" alt="Black Silk Shirt" loading="lazy">
+                        <span class="product-tag">Luxury</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Black Silk Shirt</h3>
+                        <p class="product-price">₦45,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Black Silk Shirt', 45000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Black Silk Shirt', 45000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Baggy Trousers Section -->
+        <section class="product-section container" id="trousers">
+            <div class="section-header">
+                <h2 class="section-title">Baggy <span>Trousers</span></h2>
+                <p class="section-subtitle">Comfort meets contemporary style</p>
+            </div>
+            <div class="product-grid">
+                <article class="product-card" data-id="trouser1" data-name="Olive Baggy Pants" data-price="25000" data-category="Trousers">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Olive+Baggy" alt="Olive Baggy Pants" loading="lazy">
+                        <span class="product-tag">Trending</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Olive Baggy Pants</h3>
+                        <p class="product-price">₦25,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Olive Baggy Pants', 25000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Olive Baggy Pants', 25000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="trouser2" data-name="Black Cargo Baggy" data-price="27000" data-category="Trousers">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Black+Cargo" alt="Black Cargo Baggy" loading="lazy">
+                        <span class="product-tag">Street</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Black Cargo Baggy</h3>
+                        <p class="product-price">₦27,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Black Cargo Baggy', 27000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Black Cargo Baggy', 27000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="trouser3" data-name="Beige Wide-Leg Trousers" data-price="30000" data-category="Trousers">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Beige+Wide+Leg" alt="Beige Wide-Leg Trousers" loading="lazy">
+                        <span class="product-tag">Minimal</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Beige Wide-Leg Trousers</h3>
+                        <p class="product-price">₦30,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Beige Wide-Leg Trousers', 30000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Beige Wide-Leg Trousers', 30000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="trouser4" data-name="Grey Pleated Baggy" data-price="28000" data-category="Trousers">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Grey+Pleated" alt="Grey Pleated Baggy" loading="lazy">
+                        <span class="product-tag">Classic</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Grey Pleated Baggy</h3>
+                        <p class="product-price">₦28,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Grey Pleated Baggy', 28000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Grey Pleated Baggy', 28000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="trouser5" data-name="Navy Parachute Pants" data-price="32000" data-category="Trousers">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Navy+Parachute" alt="Navy Parachute Pants" loading="lazy">
+                        <span class="product-tag">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Navy Parachute Pants</h3>
+                        <p class="product-price">₦32,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Navy Parachute Pants', 32000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Navy Parachute Pants', 32000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="trouser6" data-name="Brown Corduroy Baggy" data-price="29000" data-category="Trousers">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Brown+Corduroy" alt="Brown Corduroy Baggy" loading="lazy">
+                        <span class="product-tag">Vintage</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Brown Corduroy Baggy</h3>
+                        <p class="product-price">₦29,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Brown Corduroy Baggy', 29000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Brown Corduroy Baggy', 29000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="trouser7" data-name="White Linen Trousers" data-price="35000" data-category="Trousers">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=White+Linen" alt="White Linen Trousers" loading="lazy">
+                        <span class="product-tag">Summer</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">White Linen Trousers</h3>
+                        <p class="product-price">₦35,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('White Linen Trousers', 35000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('White Linen Trousers', 35000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="trouser8" data-name="Charcoal Wool Pants" data-price="40000" data-category="Trousers">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Charcoal+Wool" alt="Charcoal Wool Pants" loading="lazy">
+                        <span class="product-tag">Premium</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Charcoal Wool Pants</h3>
+                        <p class="product-price">₦40,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Charcoal Wool Pants', 40000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Charcoal Wool Pants', 40000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="trouser9" data-name="Khaki Utility Cargo" data-price="31000" data-category="Trousers">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Khaki+Utility" alt="Khaki Utility Cargo" loading="lazy">
+                        <span class="product-tag">Utility</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Khaki Utility Cargo</h3>
+                        <p class="product-price">₦31,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Khaki Utility Cargo', 31000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Khaki Utility Cargo', 31000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Shoes Section -->
+        <section class="product-section container" id="shoes">
+            <div class="section-header">
+                <h2 class="section-title">Signature <span>Shoes</span></h2>
+                <p class="section-subtitle">Step into excellence with every pair</p>
+            </div>
+            <div class="product-grid">
+                <article class="product-card" data-id="shoe1" data-name="Black Chelsea Boots" data-price="60000" data-category="Shoes">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Chelsea+Boots" alt="Black Chelsea Boots" loading="lazy">
+                        <span class="product-tag">Bestseller</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Black Chelsea Boots</h3>
+                        <p class="product-price">₦60,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Black Chelsea Boots', 60000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Black Chelsea Boots', 60000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="shoe2" data-name="White Sneakers" data-price="35000" data-category="Shoes">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=White+Sneakers" alt="White Sneakers" loading="lazy">
+                        <span class="product-tag">Classic</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">White Sneakers</h3>
+                        <p class="product-price">₦35,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('White Sneakers', 35000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('White Sneakers', 35000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="shoe3" data-name="Brown Oxford Shoes" data-price="55000" data-category="Shoes">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Oxford+Shoes" alt="Brown Oxford Shoes" loading="lazy">
+                        <span class="product-tag">Formal</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Brown Oxford Shoes</h3>
+                        <p class="product-price">₦55,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Brown Oxford Shoes', 55000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Brown Oxford Shoes', 55000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="shoe4" data-name="Grey Running Shoes" data-price="40000" data-category="Shoes">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Running+Shoes" alt="Grey Running Shoes" loading="lazy">
+                        <span class="product-tag">Sport</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Grey Running Shoes</h3>
+                        <p class="product-price">₦40,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Grey Running Shoes', 40000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Grey Running Shoes', 40000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="shoe5" data-name="Tan Loafers" data-price="48000" data-category="Shoes">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Tan+Loafers" alt="Tan Loafers" loading="lazy">
+                        <span class="product-tag">Elegant</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Tan Loafers</h3>
+                        <p class="product-price">₦48,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Tan Loafers', 48000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Tan Loafers', 48000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="shoe6" data-name="Suede Desert Boots" data-price="52000" data-category="Shoes">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Desert+Boots" alt="Suede Desert Boots" loading="lazy">
+                        <span class="product-tag">Trending</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Suede Desert Boots</h3>
+                        <p class="product-price">₦52,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Suede Desert Boots', 52000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Suede Desert Boots', 52000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="shoe7" data-name="Classic Monk Strap" data-price="58000" data-category="Shoes">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Monk+Strap" alt="Classic Monk Strap" loading="lazy">
+                        <span class="product-tag">Premium</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Classic Monk Strap</h3>
+                        <p class="product-price">₦58,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Classic Monk Strap', 58000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Classic Monk Strap', 58000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="shoe8" data-name="Navy Canvas Shoes" data-price="28000" data-category="Shoes">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Canvas+Shoes" alt="Navy Canvas Shoes" loading="lazy">
+                        <span class="product-tag">Casual</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Navy Canvas Shoes</h3>
+                        <p class="product-price">₦28,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Navy Canvas Shoes', 28000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Navy Canvas Shoes', 28000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="shoe9" data-name="Black Derby Shoes" data-price="50000" data-category="Shoes">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Derby+Shoes" alt="Black Derby Shoes" loading="lazy">
+                        <span class="product-tag">Classic</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Black Derby Shoes</h3>
+                        <p class="product-price">₦50,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Black Derby Shoes', 50000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Black Derby Shoes', 50000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Bags Section -->
+        <section class="product-section container" id="bags">
+            <div class="section-header">
+                <h2 class="section-title">Luxury <span>Bags</span></h2>
+                <p class="section-subtitle">Carry your essentials with sophistication</p>
+            </div>
+            <div class="product-grid">
+                <article class="product-card" data-id="bag1" data-name="Leather Tote Bag" data-price="45000" data-category="Bags">
+                    <div class="product-image">
+                        <img src="/bags/leather-tote-bag.jpg" alt="Leather Tote Bag" loading="lazy">
+                        <span class="product-tag">Bestseller</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Leather Tote Bag</h3>
+                        <p class="product-price">₦45,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Leather Tote Bag', 45000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Leather Tote Bag', 45000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="bag2" data-name="Crossbody Sling" data-price="28000" data-category="Bags">
+                    <div class="product-image">
+                        <img src="/bags/crossbody-sling.jpg" alt="Crossbody Sling" loading="lazy">
+                        <span class="product-tag">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Crossbody Sling</h3>
+                        <p class="product-price">₦28,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Crossbody Sling', 28000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Crossbody Sling', 28000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="bag3" data-name="Vintage Leather Backpack" data-price="55000" data-category="Bags">
+                    <div class="product-image">
+                        <img src="/bags/vintage-leather-backpack.jpg" alt="Vintage Leather Backpack" loading="lazy">
+                        <span class="product-tag">Premium</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Vintage Leather Backpack</h3>
+                        <p class="product-price">₦55,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Vintage Leather Backpack', 55000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Vintage Leather Backpack', 55000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="bag4" data-name="Canvas Weekend Bag" data-price="38000" data-category="Bags">
+                    <div class="product-image">
+                        <img src="/bags/weekend-bag.jpg" alt="Canvas Weekend Bag" loading="lazy">
+                        <span class="product-tag">Classic</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Canvas Weekend Bag</h3>
+                        <p class="product-price">₦38,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Canvas Weekend Bag', 38000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Canvas Weekend Bag', 38000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="bag5" data-name="Slim Laptop Briefcase" data-price="48000" data-category="Bags">
+                    <div class="product-image">
+                        <img src="/bags/laptop-briefcase.jpg" alt="Slim Laptop Briefcase" loading="lazy">
+                        <span class="product-tag">Business</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Slim Laptop Briefcase</h3>
+                        <p class="product-price">₦48,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Slim Laptop Briefcase', 48000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Slim Laptop Briefcase', 48000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="bag6" data-name="Nylon Crossbody Pack" data-price="22000" data-category="Bags">
+                    <div class="product-image">
+                        <img src="/bags/nylon-bag.jpg" alt="Nylon Crossbody Pack" loading="lazy">
+                        <span class="product-tag">Street</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Nylon Crossbody Pack</h3>
+                        <p class="product-price">₦22,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Nylon Crossbody Pack', 22000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Nylon Crossbody Pack', 22000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="bag7" data-name="Designer Duffel Bag" data-price="65000" data-category="Bags">
+                    <div class="product-image">
+                        <img src="/bags/duffel-bag.jpg" alt="Designer Duffel Bag" loading="lazy">
+                        <span class="product-tag">Luxury</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Designer Duffel Bag</h3>
+                        <p class="product-price">₦65,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Designer Duffel Bag', 65000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Designer Duffel Bag', 65000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="bag8" data-name="Minimal Card Holder" data-price="15000" data-category="Bags">
+                    <div class="product-image">
+                        <img src="/bags/cardholder.jpg" alt="Minimal Card Holder" loading="lazy">
+                        <span class="product-tag">Essential</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Minimal Card Holder</h3>
+                        <p class="product-price">₦15,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Minimal Card Holder', 15000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Minimal Card Holder', 15000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="bag9" data-name="Travel Messenger Bag" data-price="42000" data-category="Bags">
+                    <div class="product-image">
+                        <img src="/bags/messenger-bag.jpg" alt="Travel Messenger Bag" loading="lazy">
+                        <span class="product-tag">Travel</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Travel Messenger Bag</h3>
+                        <p class="product-price">₦42,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Travel Messenger Bag', 42000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Travel Messenger Bag', 42000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Watches Section -->
+        <section class="product-section container" id="watches">
+            <div class="section-header">
+                <h2 class="section-title">Luxury <span>Watches</span></h2>
+                <p class="section-subtitle">Timepieces that make a statement</p>
+            </div>
+            <div class="product-grid">
+                <article class="product-card" data-id="watch1" data-name="Minimal Green Dial" data-price="80000" data-category="Watches">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/22C55E?text=Green+Dial" alt="Minimal Green Dial Watch" loading="lazy">
+                        <span class="product-tag">Limited</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Minimal Green Dial</h3>
+                        <p class="product-price">₦80,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Minimal Green Dial', 80000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Minimal Green Dial', 80000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="watch2" data-name="Silver Chronograph" data-price="95000" data-category="Watches">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Silver+Chrono" alt="Silver Chronograph Watch" loading="lazy">
+                        <span class="product-tag">Premium</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Silver Chronograph</h3>
+                        <p class="product-price">₦95,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Silver Chronograph', 95000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Silver Chronograph', 95000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="watch3" data-name="Gold Mesh Strap" data-price="85000" data-category="Watches">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Gold+Mesh" alt="Gold Mesh Strap Watch" loading="lazy">
+                        <span class="product-tag">Elegant</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Gold Mesh Strap</h3>
+                        <p class="product-price">₦85,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Gold Mesh Strap', 85000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Gold Mesh Strap', 85000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="watch4" data-name="Black Steel Sports" data-price="120000" data-category="Watches">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Black+Steel" alt="Black Steel Sports Watch" loading="lazy">
+                        <span class="product-tag">Sport</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Black Steel Sports</h3>
+                        <p class="product-price">₦120,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Black Steel Sports', 120000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Black Steel Sports', 120000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="watch5" data-name="Blue Dive Watch" data-price="150000" data-category="Watches">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Blue+Dive" alt="Blue Dive Watch" loading="lazy">
+                        <span class="product-tag">Adventure</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Blue Dive Watch</h3>
+                        <p class="product-price">₦150,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Blue Dive Watch', 150000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Blue Dive Watch', 150000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="watch6" data-name="Leather Strap Classic" data-price="70000" data-category="Watches">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Leather+Classic" alt="Leather Strap Classic Watch" loading="lazy">
+                        <span class="product-tag">Classic</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Leather Strap Classic</h3>
+                        <p class="product-price">₦70,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Leather Strap Classic', 70000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Leather Strap Classic', 70000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="watch7" data-name="Rose Gold Minimal" data-price="90000" data-category="Watches">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Rose+Gold" alt="Rose Gold Minimal Watch" loading="lazy">
+                        <span class="product-tag">Trending</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Rose Gold Minimal</h3>
+                        <p class="product-price">₦90,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Rose Gold Minimal', 90000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Rose Gold Minimal', 90000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="watch8" data-name="Titanium Chrono" data-price="180000" data-category="Watches">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Titanium+Chrono" alt="Titanium Chrono Watch" loading="lazy">
+                        <span class="product-tag">Luxury</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Titanium Chrono</h3>
+                        <p class="product-price">₦180,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Titanium Chrono', 180000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Titanium Chrono', 180000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="watch9" data-name="Vintage Bronze Case" data-price="110000" data-category="Watches">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Vintage+Bronze" alt="Vintage Bronze Case Watch" loading="lazy">
+                        <span class="product-tag">Vintage</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Vintage Bronze Case</h3>
+                        <p class="product-price">₦110,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Vintage Bronze Case', 110000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Vintage Bronze Case', 110000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Caps Section -->
+        <section class="product-section container" id="caps">
+            <div class="section-header">
+                <h2 class="section-title">Street <span>Caps</span></h2>
+                <p class="section-subtitle">Top off your look with style</p>
+            </div>
+            <div class="product-grid">
+                <article class="product-card" data-id="cap1" data-name="Classic Logo Baseball Cap" data-price="12000" data-category="Caps">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Logo+Baseball+Cap" alt="Classic Logo Baseball Cap" loading="lazy">
+                        <span class="product-tag">Bestseller</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Classic Logo Baseball Cap</h3>
+                        <p class="product-price">₦12,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Classic Logo Baseball Cap', 12000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Classic Logo Baseball Cap', 12000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="cap2" data-name="Vintage Washed Dad Cap" data-price="10000" data-category="Caps">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Washed+Dad+Cap" alt="Vintage Washed Dad Cap" loading="lazy">
+                        <span class="product-tag">Classic</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Vintage Washed Dad Cap</h3>
+                        <p class="product-price">₦10,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Vintage Washed Dad Cap', 10000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Vintage Washed Dad Cap', 10000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="cap3" data-name="Premium Leather Strapback" data-price="25000" data-category="Caps">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Leather+Strapback" alt="Premium Leather Strapback" loading="lazy">
+                        <span class="product-tag">Luxury</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Premium Leather Strapback</h3>
+                        <p class="product-price">₦25,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Premium Leather Strapback', 25000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Premium Leather Strapback', 25000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="cap4" data-name="Urban Camo Snapback" data-price="15000" data-category="Caps">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Urban+Camo+Snapback" alt="Urban Camo Snapback" loading="lazy">
+                        <span class="product-tag">Street</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Urban Camo Snapback</h3>
+                        <p class="product-price">₦15,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Urban Camo Snapback', 15000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Urban Camo Snapback', 15000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="cap5" data-name="Minimalist Cotton Bucket Hat" data-price="8000" data-category="Caps">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Cotton+Bucket+Hat" alt="Minimalist Cotton Bucket Hat" loading="lazy">
+                        <span class="product-tag">Essential</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Minimalist Cotton Bucket Hat</h3>
+                        <p class="product-price">₦8,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Minimalist Cotton Bucket Hat', 8000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Minimalist Cotton Bucket Hat', 8000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="cap6" data-name="Designer Flat Brim Cap" data-price="20000" data-category="Caps">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Designer+Flat+Brim" alt="Designer Flat Brim Cap" loading="lazy">
+                        <span class="product-tag">Premium</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Designer Flat Brim Cap</h3>
+                        <p class="product-price">₦20,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Designer Flat Brim Cap', 20000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Designer Flat Brim Cap', 20000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="cap7" data-name="Retro Corduroy Cap" data-price="14000" data-category="Caps">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Retro+Corduroy+Cap" alt="Retro Corduroy Cap" loading="lazy">
+                        <span class="product-tag">Vintage</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Retro Corduroy Cap</h3>
+                        <p class="product-price">₦14,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Retro Corduroy Cap', 14000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Retro Corduroy Cap', 14000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="cap8" data-name="Tech Fabric Sports Cap" data-price="18000" data-category="Caps">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/ffffff?text=Tech+Fabric+Sports+Cap" alt="Tech Fabric Sports Cap" loading="lazy">
+                        <span class="product-tag">Sport</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Tech Fabric Sports Cap</h3>
+                        <p class="product-price">₦18,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Tech Fabric Sports Cap', 18000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Tech Fabric Sports Cap', 18000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="cap9" data-name="Limited Edition Green Strap" data-price="16000" data-category="Caps">
+                    <div class="product-image">
+                        <img src="https://placehold.co/600x800/1a1a1a/22C55E?text=Limited+Edition+Green+Strap" alt="Limited Edition Green Strap Cap" loading="lazy">
+                        <span class="product-tag">Limited</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Limited Edition Green Strap</h3>
+                        <p class="product-price">₦16,000</p>
+                        <div class="product-actions">
+                            <button class="btn-add-to-cart" onclick="addToCart('Limited Edition Green Strap', 16000)">Add to Cart</button>
+                            <button class="btn-whatsapp" onclick="orderOnWhatsApp('Limited Edition Green Strap', 16000)">Order on WhatsApp</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="cart-close" id="cartClose" aria-label="Close cart">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <p class="cart-empty">Your cart is empty</p>
+        </div>
+        <div class="cart-footer" id="cartFooter" style="display: none;">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">₦0</span>
+            </div>
+            <button class="btn-checkout" onclick="checkoutCart()">Checkout on WhatsApp</button>
+            <button class="btn-clear" onclick="clearCart()">Clear Cart</button>
+        </div>
+    </div>
+
+    <!-- Customer Care Chat Widget -->
+    <div class="chat-widget" id="chatWidget">
+        <button class="chat-toggle" id="chatToggle" aria-label="Open chat">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+            <span>Need Help?</span>
+        </button>
+        <div class="chat-box" id="chatBox">
+            <div class="chat-header">
+                <h4>Customer Care</h4>
+                <span class="chat-status">Online</span>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="message assistant">
+                    👋 Hello! Welcome to Gstore. How can we help you today?
+                </div>
+                <div class="message assistant">
+                    Ask about products, sizing, delivery, or anything else!
+                </div>
+            </div>
+            <div class="chat-options" id="chatOptions">
+                <button onclick="sendQuickMessage('What are your delivery options?')">🚚 Delivery Info</button>
+                <button onclick="sendQuickMessage('Do you have size guides?')">📏 Size Guide</button>
+                <button onclick="sendQuickMessage('How can I make an order?')">🛍️ How to Order</button>
+                <button onclick="sendQuickMessage('Do you offer returns?')">↩️ Return Policy</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">G<span>store</span></a>
+                <p>Premium men's boutique offering curated fashion pieces for the modern gentleman. Quality meets style.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shirts">Shirts</a></li>
+                    <li><a href="#trousers">Trousers</a></li>
+                    <li><a href="#shoes">Shoes</a></li>
+                    <li><a href="#bags">Bags</a></li>
+                    <li><a href="#watches">Watches</a></li>
+                    <li><a href="#caps">Caps</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li>📍 Lagos, Nigeria</li>
+                    <li>📞 +234 904 324 9252</li>
+                    <li>✉️ hello@gstore.ng</li>
+                    <li>🕐 Mon-Sat: 9AM - 7PM</li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Stay Updated</h4>
+                <p>Subscribe for exclusive offers and new arrivals</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Gstore. All rights reserved. | Premium Men's Boutique</p>
+        </div>
+    </footer>
+
+    <script src="gstore.js"></script>
+</body>
+</html>
