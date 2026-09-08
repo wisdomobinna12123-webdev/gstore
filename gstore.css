@@ -416,8 +416,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-img {
     width: 100%;
     max-width: 400px;
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
+    
     animation: float 3s ease-in-out infinite;
 }
 
